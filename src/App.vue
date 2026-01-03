@@ -4,9 +4,11 @@ import Editor from './components/Editor.vue'
 import Preview from './components/Preview.vue'
 
 // Load README.md as raw text
-import readme from './docs/README.md?raw'
+//import readme from './docs/README.md?raw'
 
-const markdown = ref(readme) // Start with README content
+//const markdown = ref(readme) // Start with README content
+const markdown = ref('')
+
 </script>
 
 <template>
